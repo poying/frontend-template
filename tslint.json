@@ -1,0 +1,14 @@
+{
+  "extends": "gts/tslint.json",
+  "rules": {
+    "no-default-export": false,
+    "no-any": false,
+    "variable-name": false,
+    "ordered-imports": true
+  },
+  "linterOptions": {
+    "exclude": [
+      "**/*.json"
+    ]
+  }
+}
